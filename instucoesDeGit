@@ -1,0 +1,49 @@
+para criar um reponsetorio use "git init"
+
+sendo que vc dever esta dentro de uma pasta. Para vc entrar nas pastas use "cd /mais o nome da pasta" ou "cd mais o nome da pasta"
+
+para visualizar o conteudo da pasta use "dir"
+
+para visualizar os status do seu reponsetorio use "git status"
+
+para salvar vc pode usar "git add mais o nome do documento que esta na pasta"
+
+para salvar todos os documento use "git add -A"
+
+para committed use 'git commit -m "mais a mensagem" '
+
+use: git commit -am " mais a mensagem"
+
+para ver todos os committed que vc já fez use "git log"
+
+! lembrase de sempre committed para salvar as alteraçães do seu projetos !
+
+para saber o branch que esta use "git branch" para criar um novo branch basta vc por o nome que vc quer na frente de branch ex: "git branch home"
+
+para passar de branch use "git checkout mais o nome do branch que vc que passar" ex: "git branch home"
+
+caso vc tem cometido algum erro vc pode usar "git reset --tipo do reset (soft, mixer, hard) mais o código do commit"
+
+! para ver o código do commit use "git log" veja em committed ! 
+
+soft: user quando vc quizer voltar para um commit espercifico, as outras versões vc vai ficar disponiveis para fazer auterações até vc der um novo commit 
+
+mixer: user quando vc quizer voltar para um commit espercifico, as outras versões vc vai ficar disponiveis fazer adicionar com add e após fazer auterações até vc der um novo commit 
+
+hard: user quando vc quizer voltar para um commit espercifico, as outras versões serão apagadas e não ficaram disponiveis para fazer alteraçães.
+
+
+para vc ver exatamente que foi modificado use "git diff" assim vc vera o antes e o depois
+
+para saber o nome dos arquivos modificado user "git diff --name-only"
+
+para saber o que foi auterado apenas em um arquivo use "git diff mais o nome do arquivo"
+
+para voltar a uma versão anterior de um arquivo use "git checkout mais o nome do branch -- mais o nome do arquivo" é quase o que acontece co 
+reset hard.
+
+para fazer um push para o github remoto use: "git remote add origin mais a url do projeto" 
+ ! 'origin' é só um exemplo mais pode ser usado o nome que vc desejar !
+ use "git remote" para ver se deu certo se sim vai aparecer o origin ou o nome que vc escolheu
+ use "git remote -v" para ver mais detalhes
+depois "git push -u origin master"
